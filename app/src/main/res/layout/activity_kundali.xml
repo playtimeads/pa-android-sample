@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical"
+    tools:context=".Activity.Activity_Kundali">
+
+    <include layout="@layout/layout_header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/all_usebg"
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
+
+                <TextView
+                    style="@style/medium_TextviewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enter_details" />
+
+                <EditText
+                    android:id="@+id/et_name"
+                    style="@style/reg_TextviewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/curv_bg"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:elevation="@dimen/_1sdp"
+                    android:gravity="start|center_vertical"
+                    android:drawableEnd="@drawable/ic_name"
+                    android:hint="@string/name"
+                    android:includeFontPadding="false"
+                    android:inputType="textNoSuggestions"
+                    android:lineSpacingMultiplier="0.6"
+                    android:maxLength="100"
+                    android:maxLines="1"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_8sdp"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/acho_white" />
+
+                <TextView
+                    android:id="@+id/tv_bd"
+                    style="@style/reg_TextviewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/curv_bg"
+                    android:drawableEnd="@drawable/ic_bd"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:elevation="@dimen/_1sdp"
+                    android:gravity="start|center_vertical"
+                    android:hint="@string/birth_date"
+                    android:includeFontPadding="false"
+                    android:lineSpacingMultiplier="0.6"
+                    android:maxLines="1"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/acho_white" />
+
+
+                <TextView
+                    android:id="@+id/tv_bt"
+                    style="@style/reg_TextviewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/curv_bg"
+                    android:drawableEnd="@drawable/ic_bt"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:elevation="@dimen/_1sdp"
+                    android:gravity="start|center_vertical"
+                    android:hint="@string/birth_time"
+                    android:includeFontPadding="false"
+                    android:lineSpacingMultiplier="0.6"
+                    android:maxLines="1"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/acho_white" />
+
+                <EditText
+                    android:id="@+id/et_place"
+                    style="@style/reg_TextviewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/curv_bg"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-,. "
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:elevation="@dimen/_1sdp"
+                    android:gravity="start|center_vertical"
+                    android:hint="@string/birth_place"
+                    android:includeFontPadding="false"
+                    android:inputType="textPersonName"
+                    android:lineSpacingMultiplier="0.6"
+                    android:maxLength="100"
+                    android:maxLines="1"
+                    android:drawableEnd="@drawable/ic_place"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/acho_white" />
+
+                <Button
+                    android:id="@+id/btn_submit"
+                    style="@style/medium_TextviewStyle"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:background="@drawable/next_btn"
+                    android:elevation="@dimen/_5sdp"
+                    android:includeFontPadding="false"
+                    android:lineSpacingMultiplier="0.6"
+                    android:text="@string/submit"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

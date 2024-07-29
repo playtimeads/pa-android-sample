@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AstroZenith Zodiac</string>
+
+    <string name="splash_tagline">Navigate the Stars :\nDiscover Your Celestial Journey</string>
+    <string name="splash_title">Hey Dear, Look Here</string>
+    <string name="splash_welcome">Welcome to AstroZenith, where the cosmos comes alive and your zodiac journey begins.</string>
+    <string name="waiting">Wait</string>
+    <string name="welcome">Welcome To......</string>
+    <string name="app_intro">Reach for the Stars with AstroZenith where the cosmos comes alive and your zodiac journey begins</string>
+    <string name="app_desc">I Am Aura, your guide through the cosmos with AstroZenith Zodiac. Dive into a universe of astrological wisdom and insights, empowering you to navigate life with clarity and purpose.\nDiscover the best dates for milestones like weddings, engagements, and business launches. Stay ahead with personalized daily horoscopes tailored to your zodiac sign.\nExplore compatibility with others, uncover the secrets of your birth chart, and gain a deeper understanding of your personality traits. With AstroZenith Zodiac, you\'ll have the stars on your side, guiding you every step of the way.</string>
+    <string name="continue_app">Continue App</string>
+    <string name="agree_terms">Agree with our Privacy Policy &amp; Terms of Use</string>
+    <string name="privacy_title">Privacy Introduction</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="termsofuse">Terms of use</string>
+    <string name="rateus">Rate Us</string>
+    <string name="shareapp">Share App</string>
+    <string name="getcoins">Get Coins</string>
+    <string name="version">App Version</string>
+    <string name="home_dashboard">Home AstroZenith</string>
+    <string name="splash_credits">1000</string>
+    <string name="home_intoro">Unlock your Celestial Fate with AstroZenith Zodiac</string>
+
+    <string name="sub_dessc1">Navigate life\'s journey with celestial insights and guidance</string>
+    <string name="sub_dessc2">Discover your destiny amidst twinkling stars and cosmic wisdom.</string>
+    <string name="sub_dessc3">Embark on your astrological journey the stars await your story </string>
+
+    <string name="today_muhrat">Today Subh Muhrat</string>
+    <string name="today_horoscope">Today Horoscope</string>
+    <string name="match_making">Perfect Match Making</string>
+    <string name="lucky_number">Lucky Number,Color &amp; Remedy</string>
+    <string name="kundli">Know YOur Kundali</string>
+    <string name="festival">Festival List</string>
+    <string name="love_compability">Love Compatibility</string>
+    <string name="mole_interpretaion">Mole Interpretation</string>
+
+    <string name="how_to_use">How To Use</string>
+
+    <string name="how_to_use1">To get started, enter your birth details, such as your date, time, and place of birth, to generate your birth chart.</string>
+    <string name="how_to_use2">Check out your daily horoscope to glimpse what the activitySubhMuhrat holds for you.</string>
+    <string name="how_to_use3">To check your compatibility with someone, enter their name and date of birth to generate an compatibility analysis report.</string>
+    <string name="how_to_use4">Use the app to discover your lucky colors and gemstones and learn about astrological remedies to enhance your life.</string>
+
+    <string name="Aries">Aries</string>
+    <string name="Taurus">Taurus</string>
+    <string name="Gemini">Gemini</string>
+    <string name="Cancer">Cancer</string>
+    <string name="Leo">Leo</string>
+    <string name="Virgo">Virgo</string>
+    <string name="Libra">Libra</string>
+    <string name="Scorpio">Scorpio</string>
+    <string name="Sagittarius">Sagittarius</string>
+    <string name="Pisces">Pisces</string>
+    <string name="Aquarius">Aquarius</string>
+    <string name="Capricorn">Capricorn</string>
+
+    <string name="action_loc_settings">Location Settings</string>
+    <string name="action_app_settings">App Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="action_faq">FAQs</string>
+    <string name="calc_btn_lbl">Calculate</string>
+    <string name="select_lbl">Select a date</string>
+    <string name="title_activity_muhurat_summary">Muhurat</string>
+    <string name="send_to">Share using...</string>
+    <string name="title_activity_scrolling">About Muhurat</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="dummy_desc">Stay connected to the cosmic flow of your life with our daily horoscope insights. Each activitySubhMuhrat, the stars and planets influence various aspects of your existence, from love and relationships to career and personal growth.\n\nOur personalized horoscopes provide valuable guidance and predictions tailored to your zodiac sign, helping you navigate through the activitySubhMuhrat with confidence and awareness. Embrace the wisdom of the stars and unlock the secrets to a more fulfilling and harmonious life.</string>
+
+    <string name="your_lucky_number_is">Your Lucky Number Is </string>
+    <string name="your_lucky_color_is">Your Lucky Color Is </string>
+    <string name="your_remedy_is">You should do this remedy </string>
+    <string name="choose_horoscope">Select a Horoscope </string>
+    <string name="notes"> * This data is change on various activitySubhMuhrat</string>
+    <string name="today_date">Today Date - </string>
+    <string name="find_your_rashi">Find Your Horoscope</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_right_drawer">Right Drawer</string>
+    <string name="aaj_ka_shubh_muhurat">Aaj ka Shubh Muhurat</string>
+    <string name="enter_details">Enter Your Details</string>
+    <string name="name">Enter Name</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="birth_time">Birth Time</string>
+    <string name="birth_place">Birth Place</string>
+    <string name="submit">Submit</string>
+    <string name="kundli_result">Know What Your Kundali</string>
+    <string name="labh_day">Labh : 0:00 Am - 0:00 Pm</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_partnerdetails">Enter Your Partner Details</string>
+    <string name="check_match">Check Match Making</string>
+    <string name="check_love_compatibility">Check Love Compatibility</string>
+
+</resources>

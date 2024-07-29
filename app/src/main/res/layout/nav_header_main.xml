@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_header"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingVertical="@dimen/_10sdp">
+
+    <ImageView
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_nobg_logo" />
+
+    <TextView
+        style="@style/bold_TextviewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:paddingStart="@dimen/_12sdp"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/tv_appversion"
+        style="@style/medium_TextviewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:paddingStart="@dimen/_13sdp"
+        android:text="@string/version"
+        android:textSize="@dimen/_13sdp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@color/app_bg" />
+
+</LinearLayout>

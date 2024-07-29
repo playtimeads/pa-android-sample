@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="color_accent">@color/color_header</color>
+    <color name="color_primary">@color/color_header</color>
+    <color name="color_primarydark">@color/color_header</color>
+
+    <color name="app_bg">#282246</color>
+
+    <color name="color_darkbrown">#572c12</color>
+    <color name="color_header">#413B6B</color>
+    <color name="color_skin">#B0856B</color>
+    <color name="color_text">@color/white</color>
+    <color name="acho_white">#B3FFFFFF</color>
+
+    <color name="colorPrimary">#F67D00</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#FFC890</color>
+    <color name="colorShareButton">#9190ff</color>
+    <color name="colorNote">#FF4000</color>
+    <color name="colorQuestion">#FF00FF</color>
+    <color name="colorAnswer">#170B3B</color>
+    <color name="color_yellow">#FFC62F</color>
+    <color name="color_text_yellow">#F6C95B</color>
+    <color name="blacktrans_color">#33000000</color>
+</resources>
