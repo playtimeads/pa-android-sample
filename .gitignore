@@ -599,3 +599,15 @@ local.properties
 /app/build/outputs/apk/debug/app-debug.apk
 /app/build/outputs/apk/debug/output-metadata.json
 /app/build/tmp/compileDebugAndroidTestJavaWithJavac/previous-compilation-data.bin
+/app/build/intermediates/aapt_proguard_file/debug/aapt_rules.txt
+/app/build/intermediates/default_proguard_files/global/proguard-android.txt-8.1.1
+/app/build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.1.1
+/app/build/intermediates/default_proguard_files/global/proguard-defaults.txt-8.1.1
+/app/build/intermediates/dex/debug/minifyDebugWithR8/classes.dex
+/app/build/intermediates/merged_art_profile/debug/mergeDebugArtProfile/baseline-prof.txt
+/app/build/intermediates/merged_art_profile/debug/baseline-prof.txt
+/app/build/intermediates/merged_java_res/debug/mergeDebugJavaResource/base.jar
+/app/build/outputs/mapping/debug/configuration.txt
+/app/build/outputs/mapping/debug/mapping.txt
+/app/build/outputs/mapping/debug/seeds.txt
+/app/build/outputs/mapping/debug/usage.txt
